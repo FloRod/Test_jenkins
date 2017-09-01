@@ -40,7 +40,7 @@ public class CalculatriceTest {
 		double a = 6;
 		double b = 9;
 		double retour = calculatrice.soustraction(a, b);
-		assertEquals(-3, retour, 0);
+		assertEquals(0, retour, 0);
 	}
 	
 	@Test (expected = ArithmeticException.class)
